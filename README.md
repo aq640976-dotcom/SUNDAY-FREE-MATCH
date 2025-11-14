@@ -1,2 +1,115 @@
-# SUNDAY-FREE-MATCH
-SOLO BOOKING INFORMATION
+
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Wolf Esports SOLO TOURNAMENT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f2ff;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    .form-container {
+      background: white;
+      max-width: 500px;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      padding: 20px 25px;
+    }
+    h1 {
+      text-align: center;
+      color: #3b1ae3;
+      border-bottom: 3px solid #7b5cf9;
+      padding-bottom: 10px;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+      color: #444;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="email"], input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    input[type="file"] {
+      margin-top: 5px;
+    }
+    .radio-group {
+      margin-top: 10px;
+    }
+    .radio-group label {
+      font-weight: normal;
+      margin-right: 10px;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      background: #3b1ae3;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background: #2911b2;
+    }
+    small {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+      color: #666;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>PAK BATTLE SOLO TOURNAMENT<br>(PBS BR SOLO) SEASON 1</h1>
+    <p>Competitive Battle Royale for solo players.<br>Entry Free | Prize Pool 2000Rs | YouTube Live Stream</p><form>
+  <label for="gmail">Your Gmail *</label>
+  <input type="email" id="gmail" required />
+
+  <label for="yt">YouTube Subscribe Screenshot *</label>
+  <input type="file" id="yt" accept="image/*" required />
+
+  <label for="name">Your Name *</label>
+  <input type="text" id="name" required />
+
+  <label for="ign">Your In-Game Name *</label>
+  <input type="text" id="ign" required />
+
+  <label for="uid">Your UID *</label>
+  <input type="number" id="uid" required />
+
+  <label>Join WhatsApp Community *</label>
+  <div class="radio-group">
+    <label><input type="radio" name="join" required /> Join Done</label>
+    <label><input type="radio" name="join" /> Not Join</label>
+  </div>
+
+  <label for="whatsapp">Your WhatsApp Number *</label>
+  <input type="text" id="whatsapp" required />
+
+  <button type="submit">Submit</button>
+  <small>Never share your password on this form.</small>
+</form>
+
+  </div>
+</body>
+</html>
