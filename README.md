@@ -81,7 +81,7 @@
 <body>
   <div class="form-container">
     <h1>DIGITAL WOLF ESPORTS (LVE STREAMING ON YOUTUBE )</h1>
-    <p>Competitive Battle Royale for solo players.<br>Entry Free | Prize Pool 2000Rs | YouTube Live Stream</p><form>
+    <p>Competitive Battle Royale for solo players.<br>Entry Free | Prize Pool Is Suprize On live stream u know | YouTube Live Stream</p><form>
   <label for="gmail">Your Gmail *</label>
   <input type="email" id="gmail" required />
 
