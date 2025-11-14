@@ -1,4 +1,3 @@
-
 <!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -76,39 +75,66 @@
       color: #666;
       font-size: 12px;
     }
+    /* New Style for WhatsApp Button */
+    .whatsapp-btn {
+        display: block;
+        text-align: center;
+        margin: 20px 0 10px 0; /* Adjusted margin */
+    }
+    .whatsapp-btn a {
+        display: inline-block;
+        padding: 12px 20px;
+        background-color: #25D366; /* WhatsApp Green */
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        transition: background 0.3s;
+    }
+    .whatsapp-btn a:hover {
+        background-color: #1DA851;
+    }
   </style>
 </head>
 <body>
   <div class="form-container">
     <h1>DIGITAL WOLF ESPORTS (LVE STREAMING ON YOUTUBE )</h1>
-    <p>Competitive Battle Royale for solo players.<br>Entry Free | Prize Pool Is Suprize On live stream u know | YouTube Live Stream</p><form>
-  <label for="gmail">Your Gmail *</label>
-  <input type="email" id="gmail" required />
+    <p>Competitive Battle Royale for solo players.<br>Entry Free | Prize Pool Is Suprize On live stream u know | YouTube Live Stream</p>
+    
+    <form>
+      <label for="gmail">Your Gmail *</label>
+      <input type="email" id="gmail" required />
 
-  <label for="yt">YouTube Subscribe Screenshot *</label>
-  <input type="file" id="yt" accept="image/*" required />
+      <label for="yt">YouTube Subscribe Screenshot *</label>
+      <input type="file" id="yt" accept="image/*" required />
 
-  <label for="name">Your Name *</label>
-  <input type="text" id="name" required />
+      <label for="name">Your Name *</label>
+      <input type="text" id="name" required />
 
-  <label for="ign">Your In-Game Name *</label>
-  <input type="text" id="ign" required />
+      <label for="ign">Your In-Game Name *</label>
+      <input type="text" id="ign" required />
 
-  <label for="uid">Your UID *</label>
-  <input type="number" id="uid" required />
+      <label for="uid">Your UID *</label>
+      <input type="number" id="uid" required />
 
-  <label>Join WhatsApp Community *</label>
-  <div class="radio-group">
-    <label><input type="radio" name="join" required /> Join Done</label>
-    <label><input type="radio" name="join" /> Not Join</label>
-  </div>
+      <div class="whatsapp-btn">
+          <a href="https://whatsapp.com/channel/0029VbB1MBMGOj9jBAvXqy1v" target="_blank">
+              Join WhatsApp Channel Now!
+          </a>
+      </div>
+      <label>Join WhatsApp Community *</label>
+      <div class="radio-group">
+        <label><input type="radio" name="join" value="Done" required /> Join Done</label>
+        <label><input type="radio" name="join" value="Not Join" /> Not Join</label>
+      </div>
 
-  <label for="whatsapp">Your WhatsApp Number *</label>
-  <input type="text" id="whatsapp" required />
+      <label for="whatsapp">Your WhatsApp Number *</label>
+      <input type="text" id="whatsapp" required />
 
-  <button type="submit">Submit</button>
-  <small>Never share your password on this form.</small>
-</form>
+      <button type="submit">Submit</button>
+      <small>Never share your password on this form.</small>
+    </form>
 
   </div>
 </body>
