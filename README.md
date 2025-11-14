@@ -80,7 +80,7 @@
 </head>
 <body>
   <div class="form-container">
-    <h1>PAK BATTLE SOLO TOURNAMENT<br>(PBS BR SOLO) SEASON 1</h1>
+    <h1>DIGITAL WOLF ESPORTS (LVE STREAMING ON YOUTUBE )</h1>
     <p>Competitive Battle Royale for solo players.<br>Entry Free | Prize Pool 2000Rs | YouTube Live Stream</p><form>
   <label for="gmail">Your Gmail *</label>
   <input type="email" id="gmail" required />
