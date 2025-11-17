@@ -2,69 +2,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DIGITAL WOLF ESPORTS | FORM</title>
+  <title>DIGITAL WOLF ESPORTS</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #0d0d0d;
-      color: white;
       margin: 0;
       padding: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
       text-align: center;
-    }header {
-  background: linear-gradient(90deg, #ff0000, #550000);
-  padding: 20px;
-  font-size: 28px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.container {
-  margin: 20px auto;
+    }
+    h1 {
+      margin-top: 40px;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #00eaff;
+    }
+    h2 {
+      margin-top: 10px;
+      font-size: 22px;
+      color: #ffffff;
+    }
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 90%;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .button {
+      display: block;
+      padding: 15px;
+      background: #00eaff;
+      color: #000;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .button:hover {
+      background: #0088aa;
+    }/* File Upload/Submit Section */
+.upload-box {
+  background: #111;
   width: 90%;
-  max-width: 500px;
-  background: #1a1a1a;
+  max-width: 450px;
+  margin: 40px auto;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255,0,0,0.4);
+  border: 1px solid #00eaff;
 }
-
-a.button {
-  display: block;
-  background: #e60000;
-  color: #fff;
-  text-decoration: none;
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.submit-btn {
+  background: #00eaff;
+  color: #000;
   padding: 12px;
-  margin: 10px 0;
-  border-radius: 8px;
+  margin-top: 15px;
+  width: 100%;
   font-size: 18px;
-  font-weight: bold;
-  transition: 0.3s;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
 }
 
-a.button:hover {
-  background: #ff3333;
-}
-
-.footer {
-  margin: 20px 0;
+footer {
+  margin-top: 40px;
+  padding: 20px;
   font-size: 14px;
-  color: #ccc;
+  opacity: 0.7;
 }
 
   </style>
 </head>
-<body>  <header>DIGITAL WOLF ESPORTS</header>  <div class="container">
-    <h2>Join Our Community</h2>
-    <p>Password & ID will be shared in the community.</p><a class="button" href="https://whatsapp.com/channel/0029VbB1MBMGOj9jBAvXqy1v" target="_blank">WhatsApp Channel</a>
-
-<a class="button" href="https://chat.whatsapp.com/GvLksVvlrTiHWhxyyxQ3cs" target="_blank">Community Group</a>
-
-<a class="button" href="https://www.youtube.com/@Digitalwolfesport" target="_blank">YouTube Channel</a>
-
-<a class="button" href="https://forms.gle/rFh5Gpx4udiL14ia9" target="_blank">Registration Form</a>
-
-  </div>  <div class="footer">
-    © 2025 DIGITAL WOLF ESPORTS. All Rights Reserved.
-  </div></body>
+<body>  <h1>DIGITAL WOLF ESPORTS</h1>
+  <h2>Join Our Community</h2>  <div class="buttons">
+    <a class="button" href="https://whatsapp.com/channel/0029VbB1MBMGOj9jBAvXqy1v" target="_blank">Join WhatsApp Channel</a>
+    <a class="button" href="https://chat.whatsapp.com/GvLksVvlrTiHWhxyyxQ3cs" target="_blank">Join Community Group</a>
+    <a class="button" href="https://www.youtube.com/@Digitalwolfesport" target="_blank">Subscribe YouTube Channel</a>
+    <a class="button" href="https://forms.gle/rFh5Gpx4udiL14ia9" target="_blank">Registration Form</a>
+  </div>  <div class="upload-box">
+    <h2>Submit Your Details</h2>
+    <form>
+      <input type="text" placeholder="Your Full Name" required>
+      <input type="text" placeholder="Free Fire UID" required>
+      <input type="file" required>
+      <textarea placeholder="Any Message (Optional)"></textarea>
+      <button class="submit-btn" type="submit">Submit Form</button>
+    </form>
+  </div>  <footer>
+     2025 DIGITAL WOLF ESPORTS. All Rights Reserved.
+  </footer></body>
 </html>
