@@ -2,140 +2,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Digital Wolf Esports SOLO TOURNAMENT</title>
+  <title>DIGITAL WOLF ESPORTS | FORM</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f5f2ff;
-      display: flex;
-      justify-content: center;
-      padding: 20px;
-    }
-    .form-container {
-      background: white;
-      max-width: 500px;
-      width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      padding: 20px 25px;
-    }
-    h1 {
-      text-align: center;
-      color: #3b1ae3;
-      border-bottom: 3px solid #7b5cf9;
-      padding-bottom: 10px;
-    }
-    p {
-      text-align: center;
-      font-size: 14px;
-      color: #444;
-    }
-    label {
-      display: block;
-      margin-top: 15px;
-      font-weight: bold;
-    }
-    input[type="text"], input[type="email"], input[type="number"] {
-      width: 100%;
-      padding: 10px;
-      margin-top: 5px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      font-size: 14px;
-    }
-    input[type="file"] {
-      margin-top: 5px;
-    }
-    .radio-group {
-      margin-top: 10px;
-    }
-    .radio-group label {
-      font-weight: normal;
-      margin-right: 10px;
-    }
-    button {
-      margin-top: 20px;
-      width: 100%;
-      background: #3b1ae3;
+      background: #0d0d0d;
       color: white;
-      border: none;
-      padding: 12px;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    button:hover {
-      background: #2911b2;
-    }
-    small {
-      display: block;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      margin-top: 10px;
-      color: #666;
-      font-size: 12px;
-    }
-    /* New Style for WhatsApp Button */
-    .whatsapp-btn {
-        display: block;
-        text-align: center;
-        margin: 20px 0 10px 0; /* Adjusted margin */
-    }
-    .whatsapp-btn a {
-        display: inline-block;
-        padding: 12px 20px;
-        background-color: #25D366; /* WhatsApp Green */
-        color: white;
-        text-decoration: none;
-        border-radius: 8px;
-        font-weight: bold;
-        font-size: 16px;
-        transition: background 0.3s;
-    }
-    .whatsapp-btn a:hover {
-        background-color: #1DA851;
-    }
+    }header {
+  background: linear-gradient(90deg, #ff0000, #550000);
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,0,0,0.4);
+}
+
+a.button {
+  display: block;
+  background: #e60000;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a.button:hover {
+  background: #ff3333;
+}
+
+.footer {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
   </style>
 </head>
-<body>
-  <div class="form-container">
-    <h1>DIGITAL WOLF ESPORTS (LVE STREAMING ON YOUTUBE )</h1>
-    <p>Competitive Battle Royale for solo players.<br>Entry Free | Prize Pool Is Suprize On live stream u know | YouTube Live Stream</p>
-    
-    <form>
-      <label for="gmail">Your Gmail *</label>
-      <input type="email" id="gmail" required />
+<body>  <header>DIGITAL WOLF ESPORTS</header>  <div class="container">
+    <h2>Join Our Community</h2>
+    <p>Password & ID will be shared in the community.</p><a class="button" href="https://whatsapp.com/channel/0029VbB1MBMGOj9jBAvXqy1v" target="_blank">WhatsApp Channel</a>
 
-      <label for="yt">YouTube Subscribe Screenshot *</label>
-      <input type="file" id="yt" accept="image/*" required />
+<a class="button" href="https://chat.whatsapp.com/GvLksVvlrTiHWhxyyxQ3cs" target="_blank">Community Group</a>
 
-      <label for="name">Your Name *</label>
-      <input type="text" id="name" required />
+<a class="button" href="https://www.youtube.com/@Digitalwolfesport" target="_blank">YouTube Channel</a>
 
-      <label for="ign">Your In-Game Name *</label>
-      <input type="text" id="ign" required />
+<a class="button" href="https://forms.gle/rFh5Gpx4udiL14ia9" target="_blank">Registration Form</a>
 
-      <label for="uid">Your UID *</label>
-      <input type="number" id="uid" required />
-
-      <div class="whatsapp-btn">
-          <a href="https://whatsapp.com/channel/0029VbB1MBMGOj9jBAvXqy1v" target="_blank">
-              Join WhatsApp Channel Now!
-          </a>
-      </div>
-      <label>Join WhatsApp Community *</label>
-      <div class="radio-group">
-        <label><input type="radio" name="join" value="Done" required /> Join Done</label>
-        <label><input type="radio" name="join" value="Not Join" /> Not Join</label>
-      </div>
-
-      <label for="whatsapp">Your WhatsApp Number *</label>
-      <input type="text" id="whatsapp" required />
-
-      <button type="submit">Submit</button>
-      <small>Never share your password on this form.</small>
-    </form>
-
-  </div>
-</body>
+  </div>  <div class="footer">
+    © 2025 DIGITAL WOLF ESPORTS. All Rights Reserved.
+  </div></body>
 </html>
